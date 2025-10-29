@@ -29,6 +29,6 @@ fi
 mkdir -p /var/log/roboshop
 touch /var/log/roboshop/ansible.log
 
-cd $REPO_DIR
+cd $REPO_DIR/ansible-roboshop-roles-tf
 
 ansible-playbook -e component=$component main.yaml
